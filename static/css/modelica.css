@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Bw Modelica';
+    src: url('/static/fonts/modelica/BwModelica-ExtraBold.woff2') format('woff2'),
+        url('/static/fonts/modelica/BwModelica-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Modelica';
+    src: url('/static/fonts/modelica/BwModelica-Bold.woff2') format('woff2'),
+        url('/static/fonts/modelica/BwModelica-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Modelica';
+    src: url('/static/fonts/modelica/BwModelica-ExtraBoldItalic.woff2') format('woff2'),
+        url('/static/fonts/modelica/BwModelica-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Modelica';
+    src: url('/static/fonts/modelica/BwModelica-BoldItalic.woff2') format('woff2'),
+        url('/static/fonts/modelica/BwModelica-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Modelica Hairline';
+    src: url('/static/fonts/modelica/BwModelica-Hairline.woff2') format('woff2'),
+        url('/static/fonts/modelica/BwModelica-Hairline.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Modelica';
+    src: url('/static/fonts/modelica/BwModelica-BlackItalic.woff2') format('woff2'),
+        url('/static/fonts/modelica/BwModelica-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Modelica';
+    src: url('/static/fonts/modelica/BwModelica-Medium.woff2') format('woff2'),
+        url('/static/fonts/modelica/BwModelica-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Modelica Hairline';
+    src: url('/static/fonts/modelica/BwModelica-HairlineItalic.woff2') format('woff2'),
+        url('/static/fonts/modelica/BwModelica-HairlineItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Modelica';
+    src: url('/static/fonts/modelica/BwModelica-Regular.woff2') format('woff2'),
+        url('/static/fonts/modelica/BwModelica-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Modelica';
+    src: url('/static/fonts/modelica/BwModelica-MediumItalic.woff2') format('woff2'),
+        url('/static/fonts/modelica/BwModelica-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Modelica';
+    src: url('/static/fonts/modelica/BwModelica-LightItalic.woff2') format('woff2'),
+        url('/static/fonts/modelica/BwModelica-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Modelica';
+    src: url('/static/fonts/modelica/BwModelica-Light.woff2') format('woff2'),
+        url('/static/fonts/modelica/BwModelica-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Modelica';
+    src: url('/static/fonts/modelica/BwModelica-Black.woff2') format('woff2'),
+        url('/static/fonts/modelica/BwModelica-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Modelica';
+    src: url('/static/fonts/modelica/BwModelica-ThinItalic.woff2') format('woff2'),
+        url('/static/fonts/modelica/BwModelica-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Modelica';
+    src: url('/static/fonts/modelica/BwModelica-Thin.woff2') format('woff2'),
+        url('/static/fonts/modelica/BwModelica-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Modelica';
+    src: url('/static/fonts/modelica/BwModelica-RegularItalic.woff2') format('woff2'),
+        url('/static/fonts/modelica/BwModelica-RegularItalic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
