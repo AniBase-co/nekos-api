@@ -160,6 +160,20 @@ optional = false
 python-versions = ">=3.7"
 
 [[package]]
+name = "gunicorn"
+version = "20.1.0"
+description = "WSGI HTTP Server for UNIX"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[package.extras]
+eventlet = ["eventlet (>=0.24.1)"]
+gevent = ["gevent (>=1.4.0)"]
+setproctitle = ["setproctitle"]
+tornado = ["tornado (>=0.2)"]
+
+[[package]]
 name = "h11"
 version = "0.13.0"
 description = "A pure-Python, bring-your-own-I/O implementation of HTTP/1.1"
@@ -274,6 +288,14 @@ python-versions = ">=3.6"
 [package.extras]
 qa = ["flake8 (==3.8.3)", "mypy (==0.782)"]
 testing = ["docopt", "pytest (<6.0.0)"]
+
+[[package]]
+name = "peewee"
+version = "3.15.3"
+description = "a little orm"
+category = "main"
+optional = false
+python-versions = "*"
 
 [[package]]
 name = "pluggy"
@@ -573,7 +595,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "3e3866e5f315bfa77879156c5799e9dcf63e1059c6fba90a39158139d6315dec"
+content-hash = "1883dcc8388da307681f577d37ec98c2390a95cea176a9742bc134792dc9a06a"
 
 [metadata.files]
 aiohttp = []
@@ -589,6 +611,7 @@ debugpy = []
 fastapi = []
 flask = []
 frozenlist = []
+gunicorn = []
 h11 = []
 idna = []
 importlib-metadata = []
@@ -600,6 +623,7 @@ multidict = []
 numpy = []
 packaging = []
 parso = []
+peewee = []
 pluggy = []
 pydantic = []
 pyflakes = []

@@ -19,46 +19,50 @@
             }
         </style>
     </head>
-    <body class="bg-black text-white flex flex-col items-center">
-        <div class="fixed top-0 left-0 right-0 bg-neutral-900 border-b border-b-neutral-800 flex flex-col items-center">
-            <div class="w-full max-w-6xl leading-none flex flex-row items-center justify-between p-5">
-                <div class="flex flex-row items-center gap-8 font-medium">
+    <body class="bg-black text-white flex flex-col items-center px-5 md:px-10">
+        <div class="fixed top-0 left-0 right-0 bg-neutral-900 border-b border-b-neutral-800 flex flex-col items-center px-5 md:px-10">
+            <div class="w-full max-w-6xl leading-none flex flex-row items-center justify-between py-5">
+                <div class="flex flex-row items-center gap-5">
+                    <i class="fa-solid fa-bars fa-lg md:hidden"></i>
+                    <span class="text-white font-medium">Nekos API</span>
+                </div>
+                <div class="hidden md:flex flex-row items-center gap-8 font-medium">
                     <a class="transition hover:text-rose-500" href="/">Home</a>
                     <a class="transition hover:text-rose-500" href="/api/v1/redoc">Documentation</a>
                     <a class="transition hover:text-rose-500" href="//status.nekos-api.tk">Status</a>
                 </div>
-                <div class="flex flex-row items-center gap-8">
+                <div class="hidden md:flex flex-row items-center gap-8">
                     <a href="https://github.com/AniBase-co/nekos-api" target="_blank">
                         <i class="fa-brands fa-github fa-lg"></i>
                     </a>
-                    <a href="#" target="_blank">
+                    <a href="#https://discord.gg/w48Sk9X9UE" target="_blank">
                         <i class="fa-brands fa-discord fa-lg"></i>
                     </a>
                 </div>
             </div>
         </div>
-        <div class="w-full max-w-6xl h-screen items-stretch justify-between flex flex-row">
+        <div class="w-full max-w-6xl pt-28 md:pt-0 md:h-screen items-stretch justify-between flex flex-col md:flex-row">
             <div class="flex flex-col items-start justify-center h-full">
                 <h1 class="text-white font-bold text-5xl">Nekos API</h1>
-                <p class="mt-5 text-neutral-400 text-lg text-center">
+                <p class="mt-5 text-neutral-400 text-lg">
                     A restful/graphql API that serves anime info, images, gifs, quotes, facts and more.
                 </p>
                 <div class="flex flex-row gap-5 items-center mt-10">
                     <a href="/api/v1/redoc">
-                        <button class="hero-btn flex flex-row items-center justify-center w-44 gap-3 p-3 rounded border border-rose-500 text-white font-semibold text-base leading-none">
+                        <button class="hero-btn flex flex-row hover:bg-neutral-900 md:hover:bg-transparent items-center justify-center md:w-44 gap-3 py-3 px-4 rounded border border-rose-500 text-white font-semibold text-base leading-none">
                             Documentation
-                            <svg class="w-5 h-5 stroke-white transition-all -ml-8 opacity-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                            <svg class="w-5 h-5 stroke-white transition-all -ml-8 opacity-0 hidden md:block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                         </button>
                     </a>
                     <a href="/api/v1/redoc#section/Wrappers">
-                        <button class="hero-btn flex flex-row items-center justify-center w-32 gap-3 p-3 rounded border border-rose-500 text-white font-semibold text-base leading-none">
+                        <button class="hero-btn flex flex-row hover:bg-neutral-900 md:hover:bg-transparent items-center justify-center md:w-32 gap-3 p-3 rounded border border-rose-500 text-white font-semibold text-base leading-none">
                             Wrappers
-                            <svg class="w-5 h-5 stroke-white transition-all -ml-8 opacity-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                            <svg class="w-5 h-5 stroke-white transition-all -ml-8 opacity-0 hidden md:block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                         </button>
                     </a>
                 </div>
             </div>
-            <img src="/static/img/catgirl.png" />
+            <img class="hidden md:block" src="/static/img/{{ catgirl }}" />
         </div>
     </body>
 </html>

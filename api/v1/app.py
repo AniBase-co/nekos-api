@@ -1,6 +1,13 @@
-from fastapi import FastAPI
+import typing
+
+from fastapi import FastAPI, Query
+
+from peewee import *
 
 from .openapi_metadata import tags
+
+from api.database.models.images import Image
+from api.v1 import schemas
 
 
 description = """
@@ -27,3 +34,10 @@ app = FastAPI(
 @app.get('/')
 async def index():
     return {"message": "Welcome to the Nekos API!"}
+
+@app.get('/image/{category}', response_model=typing.Union[schemas.Image, schemas.ImageList])
+async def get_random_image(category: Image.Category, amount: int = Query(default=1, gt=0, lt=21)):
+    images = Image.select().where(Image.category == category.value).order_by(fn.Random()).limit(amount)
+    if amount > 1:
+        return schemas.ImageList(images=list(images))
+    return images.first()
